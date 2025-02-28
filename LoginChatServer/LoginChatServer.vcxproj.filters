@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\contents">
+      <UniqueIdentifier>{cadcf2eb-04e5-424f-b022-355e05d6c272}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\lib">
+      <UniqueIdentifier>{0ae78aaa-8781-46b0-9f7b-0a31655d31d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\utils">
+      <UniqueIdentifier>{45785e68-80e8-4378-8a62-d40563f0de81}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CEncryption.cpp">
+      <Filter>소스 파일\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatServer.cpp">
+      <Filter>소스 파일\contents</Filter>
+    </ClCompile>
+    <ClCompile Include="CLockFreeQueue.cpp">
+      <Filter>소스 파일\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CPacket.cpp">
+      <Filter>소스 파일\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CProfiler.cpp">
+      <Filter>소스 파일\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CrashDump.cpp">
+      <Filter>소스 파일\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CRingBuffer.cpp">
+      <Filter>소스 파일\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CServer.cpp">
+      <Filter>소스 파일\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="NLObjectPool.cpp">
+      <Filter>소스 파일\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectPool.cpp">
+      <Filter>소스 파일\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>소스 파일\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="WParsor.cpp">
+      <Filter>소스 파일\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="TLSObjectPool.cpp">
+      <Filter>소스 파일\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketHandler.cpp">
+      <Filter>소스 파일\contents</Filter>
+    </ClCompile>
+    <ClCompile Include="Session.cpp">
+      <Filter>소스 파일\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonitor.cpp">
+      <Filter>소스 파일\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SQL.cpp">
+      <Filter>소스 파일\contents</Filter>
+    </ClCompile>
+    <ClCompile Include="CParsor.cpp">
+      <Filter>소스 파일\utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CEncryption.h">
+      <Filter>소스 파일\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatServer.h">
+      <Filter>소스 파일\contents</Filter>
+    </ClInclude>
+    <ClInclude Include="CLockFreeQueue.h">
+      <Filter>소스 파일\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonProtocol.h">
+      <Filter>소스 파일\contents</Filter>
+    </ClInclude>
+    <ClInclude Include="CPacket.h">
+      <Filter>소스 파일\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CProfiler.h">
+      <Filter>소스 파일\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CrashDump.h">
+      <Filter>소스 파일\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CRingBuffer.h">
+      <Filter>소스 파일\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CServer.h">
+      <Filter>소스 파일\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>소스 파일\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="NLObjectPool.h">
+      <Filter>소스 파일\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectPool.h">
+      <Filter>소스 파일\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>소스 파일\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="WParsor.h">
+      <Filter>소스 파일\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="TLSObjectPool.h">
+      <Filter>소스 파일\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketHandler.h">
+      <Filter>소스 파일\contents</Filter>
+    </ClInclude>
+    <ClInclude Include="Type.h">
+      <Filter>소스 파일\contents</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>소스 파일\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Session.h">
+      <Filter>소스 파일\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonitor.h">
+      <Filter>소스 파일\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SQL.h">
+      <Filter>소스 파일\contents</Filter>
+    </ClInclude>
+    <ClInclude Include="CParsor.h">
+      <Filter>소스 파일\utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ServerSetting.txt">
+      <Filter>소스 파일\lib</Filter>
+    </Text>
+    <Text Include="README.txt">
+      <Filter>소스 파일\lib</Filter>
+    </Text>
+    <Text Include="DBSetting.txt">
+      <Filter>소스 파일\contents</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

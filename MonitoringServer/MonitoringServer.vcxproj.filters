@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Lib">
+      <UniqueIdentifier>{1e848acf-c8b0-4e2b-902c-08d8332758fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{344ba949-efbc-4fcb-8b91-d763747e6f15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents">
+      <UniqueIdentifier>{97362966-57c9-4101-a62d-4c8cf2a432d9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Log.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="NLMemoryPool.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectPool.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SQL.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="TLSMemoryPool.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="WParsor.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CEncryption.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CLockFreeQueue.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonitor.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CPacket.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CParsor.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CProfiler.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CrashDump.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CRingBuffer.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CServer.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="Session.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Contents</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonitorServer.cpp">
+      <Filter>Contents</Filter>
+    </ClCompile>
+    <ClCompile Include="CLanMonitorServer.cpp">
+      <Filter>Contents</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Define.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="NLMemoryPool.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectPool.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SQL.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="TLSMemoryPool.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="WParsor.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CEncryption.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CLockFreeQueue.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonitor.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CPacket.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CParsor.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CProfiler.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CrashDump.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CRingBuffer.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CServer.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Session.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonitorServer.h">
+      <Filter>Contents</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonProtocol.h">
+      <Filter>Contents</Filter>
+    </ClInclude>
+    <ClInclude Include="Type.h">
+      <Filter>Contents</Filter>
+    </ClInclude>
+    <ClInclude Include="CLanMonitorServer.h">
+      <Filter>Contents</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ServerSetting.txt">
+      <Filter>Lib</Filter>
+    </Text>
+    <Text Include="LanServerSetting.txt">
+      <Filter>Lib</Filter>
+    </Text>
+    <Text Include="DBSetting.txt">
+      <Filter>Contents</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

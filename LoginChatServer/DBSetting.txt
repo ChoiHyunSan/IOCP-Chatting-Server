@@ -1,0 +1,8 @@
+MySQL DB
+{
+	SERVER_IP : 127.0.0.1
+	USER : root
+	PASSWORD : vmfhzkepal
+	TABLE : lldj123414
+	PORT : 3306
+}

@@ -1,0 +1,14 @@
+[ Sep 20 2024 | 17:38:19 ] Bind Func Error
+[ Sep 20 2024 | 17:38:19 ] Socket Programming Setting Failed
+[ Sep 20 2024 | 17:38:19 ] Server Setting Fail
+[ Sep 20 2024 | 17:38:19 ] Bind Func Error
+[ Sep 20 2024 | 17:38:19 ] Socket Programming Setting Failed
+[ Sep 20 2024 | 17:38:19 ] Server Setting Fail
+[ Sep 20 2024 | 17:38:19 ] Listen Func Error
+[ Sep 20 2024 | 17:38:19 ] Bind Func Error
+[ Sep 20 2024 | 17:38:19 ] Socket Programming Setting Failed
+[ Sep 20 2024 | 17:38:19 ] Server Setting Fail
+[ Sep 20 2024 | 17:38:19 ] Bind Func Error
+[ Sep 20 2024 | 17:38:19 ] Socket Programming Setting Failed
+[ Sep 20 2024 | 17:38:19 ] Server Setting Fail
+[ Sep 20 2024 | 17:38:19 ] Listen Func Error

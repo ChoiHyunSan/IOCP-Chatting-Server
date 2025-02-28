@@ -1,0 +1,4 @@
+[ Sep  9 2024 | 18:00:54 ] Bind Func Error
+[ Sep  9 2024 | 18:00:54 ] Socket Programming Setting Failed
+[ Sep  9 2024 | 18:00:54 ] Server Setting Fail
+[ Sep  9 2024 | 18:00:54 ] Listen Func Error

@@ -1,0 +1,2 @@
+Terminate HeartBeatThread
+[ Sep  9 2024 | 18:00:54 ] Launch Event Error
